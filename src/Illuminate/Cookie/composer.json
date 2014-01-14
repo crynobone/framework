@@ -14,10 +14,6 @@
         "symfony/http-kernel": "2.4.x",
         "symfony/http-foundation": "2.4.*"
     },
-    "require-dev": {
-        "mockery/mockery": "0.7.2",
-        "phpunit/phpunit": "3.7.*"
-    },
     "autoload": {
         "psr-0": {
             "Illuminate\\Cookie": ""

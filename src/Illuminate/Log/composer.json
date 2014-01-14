@@ -12,9 +12,7 @@
         "illuminate/support": "4.2.*",
         "monolog/monolog": "1.6.*"
     },
-    "require-dev": {
-        "mockery/mockery": "0.7.2",
-        "phpunit/phpunit": "3.7.*",
+    "suggest": {
         "illuminate/events": "4.2.*"
     },
     "autoload": {
