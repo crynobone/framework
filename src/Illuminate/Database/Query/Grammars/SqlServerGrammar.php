@@ -223,9 +223,10 @@ class SqlServerGrammar extends Grammar
     protected function compileRowConstraint($query)
     {
         $start = (int) $query->offset + 1;
+        $limit = (int) $query->limit;
 
-        if ($query->limit > 0) {
-            $finish = (int) $query->offset + (int) $query->limit;
+        if ($limit > 0) {
+            $finish = (int) $query->offset + $limit;
 
             return "between {$start} and {$finish}";
         }
